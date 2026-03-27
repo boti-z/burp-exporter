@@ -8,7 +8,7 @@ Al desarrollar ciertas herramientas que requieren del análisis de una secuencia
 
 ### Build the extension
 - ./gradlew jar
-- <rootProjectdirectory>/build/libs/name.jarç
+- <rootProjectdirectory>/build/libs/name.jar
 - Cárgala en burp
 
 #### Output
