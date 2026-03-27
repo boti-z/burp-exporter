@@ -6,6 +6,11 @@ Al desarrollar ciertas herramientas que requieren del análisis de una secuencia
 - Simplemente selecciona todas las peticiones y Click derecho -> extensions -> Send to exporter
 - En la tab de la extensión, eliges la ruta donde se creará un directorio con las peticiones y exportas
 
+### Build the extension
+- ./gradlew jar
+- <rootProjectdirectory>/build/libs/name.jarç
+- Cárgala en burp
+
 #### Output
 - Quizás no es la manera más eficiente pero guardo las peticiones, en orden cronológico, en formato <#orden.request> <#orden.response>
 - 001.request, 001.response, 002.request...
